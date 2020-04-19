@@ -111,7 +111,7 @@ def game_loop():
                 print("\n ** You win ** \n")
                 playing = False
         else:
-            input("\n ** door ** \n")
+            input("\n ** wall ** \n")
     else:
         if input('Play again? [Y/n] ').lower() != "n":
             game_loop()
